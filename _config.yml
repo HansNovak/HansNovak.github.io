@@ -1,15 +1,15 @@
 # Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+#markdown:         redcarpet
+#highlighter:      pygments
 
 # Permalinks
-permalink:        pretty
-relative_permalinks: true
+#permalink:        pretty
+
 
 # Setup
 title:            Hide
 tagline:          'Datenanalyse mit R und Python'
-description:      'Spielwiese für Datenanalyse mit R und Python'
+description:      'Datenanalyse mit R und Python'
 url:              
 baseurl:          /
 
@@ -18,6 +18,8 @@ author:
   url:            
 
 paginate:         5
+
+gems: [jekyll-paginate, jekyll-gist]
 
 timezone: Europe/Berlin
 
